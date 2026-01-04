@@ -89,7 +89,7 @@ def main():
     """
     # Настройки
     DATA_DIR = os.getenv("DATA_DIR", "./data")
-    WEBHOOK_URL = os.getenv("N8N_UPLOAD_WEBHOOK_URL", "http://localhost:5678/webhook/pinecone-upload")
+    WEBHOOK_URL = os.getenv("N8N_UPLOAD_WEBHOOK_URL", "https://agradablja.duckdns.org/webhook/pinecone-upload")
     NAMESPACE = os.getenv("PINECONE_NAMESPACE", "default")
     
     print("=" * 80)

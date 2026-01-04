@@ -92,7 +92,7 @@ def main():
     # Webhook URL для локального n8n
     # URL можно найти в узле Webhook после активации workflow
     import os
-    WEBHOOK_URL = os.getenv("N8N_WEBHOOK_URL", "http://localhost:5678/webhook/pinecone-search")
+    WEBHOOK_URL = os.getenv("N8N_WEBHOOK_URL", "https://agradablja.duckdns.org/webhook/pinecone-search")
     webhook_url = WEBHOOK_URL
     
     print(f"📡 Используется webhook URL: {webhook_url}")
